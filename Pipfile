@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[metadata]
+name = "fastmcp-server-starter"
+description = "A MCP server starter based on fastmcp"
+author = "Arun Gopi"
+license = "MIT License"
+version = "0.1.0"
+
+[packages]
+fastmcp = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
